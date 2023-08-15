@@ -1,0 +1,18 @@
+name: py311-apple-notebook
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.11.3
+  - pip>=23.1.0
+  - pip:
+    - tensorflow-macos>=2.13.0
+    - tensorflow-metal>=1.0.0
+    - tensorflow-datasets>=4.9.2
+    - torch>=2.0.1
+    - torchvision>=0.15.2
+    - ruff>=0.0.271
+    - yapf>=0.40.1
+    - isort>=5.12.0
+    - jupyter>=1.0.0
+    - jedi-language-server

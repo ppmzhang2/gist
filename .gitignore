@@ -30,3 +30,4 @@ __pypackages__/
 
 # jupyter
 .ipynb_checkpoints
+.virtual_documents
